@@ -10,3 +10,16 @@ This is the assignment of popular machine learning course on coursera.
 (tips: use matrix form is easy to read);
 
 * Compared with the closed form: use matrix representation; 
+
+### Assignment 2
+
+#### 1. Classification visualization
+* Scatter plot;
+* Decision boundary;
+
+#### 2. Use gradient descent algorithm to implement logistics regression
+* Cost function of logistics regression;
+
+#### 3. Regularized logistics regression
+* Mapping 2 features to 28 features;
+* Use L2-norm regularization;
