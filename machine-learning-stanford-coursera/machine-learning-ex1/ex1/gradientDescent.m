@@ -18,7 +18,9 @@ for iter = 1:num_iters
     
     % theta_j := theta_j - sum((theta_0 + theta_1 * x_i - y_i)^2 * x_j) / m
     
-    theta = theta - alpha * sum(X' * (X * theta - y)) / m;
+    theta = theta - alpha * (X' * (X * theta - y)) / m;
+    %theta(1) = theta(1) - alpha * sum((X * theta - y) .* X(:, 1)) / m;
+    %theta(2) = theta(2) - alpha * sum((X * theta - y) .* X(:, 2)) / m;
     % ============================================================
 
     % Save the cost J in every iteration    
