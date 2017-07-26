@@ -23,3 +23,12 @@ This is the assignment of popular machine learning course on coursera.
 #### 3. Regularized logistics regression
 * Mapping 2 features to 28 features;
 * Use L2-norm regularization;
+
+### Assignment 5
+
+#### 1. Regularized linear regression
+* Use L2-norm regularization;
+
+#### 2. Bias-variance trade-off
+* illustrated by polynomial regression;
+* use cross validation to select optimal lambda (regularization parameter);
