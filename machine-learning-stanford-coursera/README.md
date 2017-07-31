@@ -32,3 +32,12 @@ This is the assignment of popular machine learning course on coursera.
 #### 2. Bias-variance trade-off
 * illustrated by polynomial regression;
 * use cross validation to select optimal lambda (regularization parameter);
+
+### Assignment 7
+
+#### 1. Kmeans clustering algorithm
+* Repeat two processes: find closest centroids and update centroids;
+* Application in image compression;
+
+### 2. PCA
+* Matrix operations related to PCA: SVD decomposition, projection and recovery;
