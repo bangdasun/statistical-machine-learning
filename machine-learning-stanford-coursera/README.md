@@ -39,5 +39,5 @@ This is the assignment of popular machine learning course on coursera.
 * Repeat two processes: find closest centroids and update centroids;
 * Application in image compression;
 
-### 2. PCA
+#### 2. PCA
 * Matrix operations related to PCA: SVD decomposition, projection and recovery;
