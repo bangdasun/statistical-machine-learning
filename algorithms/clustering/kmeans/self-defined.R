@@ -45,22 +45,22 @@ myKmeans <- function(X, k = 2) {
   # @param k: number of clusters
   
   Center <- matrix(0, nrow = k, ncol = ncol(X))
-  clusterAssignMat <- matrix(0, nrow = nrow(X), ncol = 1)
-  prevCluster <- clusterAssignMat
+  cluster_assign_mat <- matrix(0, nrow = nrow(X), ncol = 1)
+  prev_cluster <- cluster_assign_mat
   
-  currentCluster <- sample(1:k, size = nrow(X), replace = TRUE)
+  current_cluster <- sample(1:k, size = nrow(X), replace = TRUE)
   
-  while(!identical(prevCluster, currentCluster)) {
-    clusterAssignMat <- cbind(clusterAssignMat, currentCluster)
-    prevCluster <- currentCluster
+  while(!identical(prev_cluster, current_cluster)) {
+    cluster_assign_mat <- cbind(cluster_assign_mat, current_cluster)
+    prev_cluster <- current_cluster
     # check again if cluster unchanged
-    if (identical(prevCluster, currentCluster)) {
+    if (identical(prev_cluster, current_cluster)) {
       break
     }
-    Center <- calcCenter(X, currentCluster)
-    currentCluster <- apply(X, 1, assignCluster, Center = Center)
+    Center <- calcCenter(X, current_cluster)
+    current_cluster <- apply(X, 1, assignCluster, Center = Center)
   }
-  return(list(cluster = currentCluster, Center = Center, cluster_iter = clusterAssignMat))
+  return(list(cluster = current_cluster, Center = Center, cluster_iter = cluster_assign_mat))
 }
 
 # Demo
