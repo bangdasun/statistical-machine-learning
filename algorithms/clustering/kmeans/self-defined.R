@@ -40,7 +40,7 @@ calcCenter <- function(X, cluster) {
 }
 
 # Main functions
-my_kmeans <- function(X, k = 2) {
+myKmeans <- function(X, k = 2) {
   # @param X: data matrix with shape n x p 
   # @param k: number of clusters
   
@@ -64,6 +64,6 @@ my_kmeans <- function(X, k = 2) {
 }
 
 # Demo
-kmeansResult <- my_kmeans(X, k = 2)
+kmeansResult <- myKmeans(X, k = 2)
 df$cluster <- kmeansResult$cluster
 ggplot(df) + geom_point(mapping = aes(x = x, y = y, color = factor(cluster)), size = 2)
