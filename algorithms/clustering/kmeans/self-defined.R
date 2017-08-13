@@ -52,11 +52,12 @@ myKmeans <- function(X, k = 2) {
   
   while(!identical(prev_cluster, current_cluster)) {
     cluster_assign_mat <- cbind(cluster_assign_mat, current_cluster)
-    prev_cluster <- current_cluster
+    
     # check again if cluster unchanged
     if (identical(prev_cluster, current_cluster)) {
       break
     }
+    prev_cluster <- current_cluster
     Center <- calcCenter(X, current_cluster)
     current_cluster <- apply(X, 1, assignCluster, Center = Center)
   }
