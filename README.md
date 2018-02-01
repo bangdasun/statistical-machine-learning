@@ -1,9 +1,9 @@
-# Statistical-machine-learning
+## Statistical-machine-learning
 STAT GR5241 Statistical Machine Learning taught by Professor Linxi Liu
 
 The topics discussed in this course includes:
 
-#### General Concepts
+### General Concepts
 * Supervised Learning and Unsupervised Learning;
 * Frequentist vs Bayesian;
 * Loss function;
@@ -11,71 +11,69 @@ The topics discussed in this course includes:
 * Exponential Family.
 
 
-#### PCA
+### PCA
 
-#### Kmeans Clustering
+### Kmeans Clustering
 
-#### KNN
+### KNN
 
-#### Linear Regression
+### Linear Regression
 * STAT 5205
 
-#### Non-Linear Regression
+### Non-Linear Regression
 * Splines
 
-#### Basic Classification Algorithms
+### Basic Classification Algorithms
 * Bayes Classifier;
 * Logistic Regression;
 * LDA;
 * QDA;
 
-#### SVM
+### SVM
 * Maximum Margin Classifier;
 * Support Vector Classifier;
 * Support Vector Machine.
 
-#### Convex Optimization
+### Convex Optimization
 * KKT condition.
 
-#### Model Selection and Regularization
+### Model Selection and Regularization
 * Ridge and LASSO regression
 * AIC/BIC/ROC/various rate etc
 
-#### Tree Methods
+### Tree Methods
 * Decision Tree;
 * Bagging;
 * Random Forest;
 * Boosting.
 
-#### Cluster Analysis
+### Cluster Analysis
 * Hierarchical Clustering
 * Model Order Selection.
 
-#### Mixture Model
+### Mixture Model
 * EM Algorithm;
 
-#### Text Model
+### Text Model
 * Categorical Data;
 * Bigram Model;
 * N-gram Model.
 
-#### Information Theory
+### Information Theory
 * Entropy;
 * Mutual Information;
 * KL Divergence.
 
-#### Markov Model
+### Markov Model
 * PageRank Algorithm;
 * Hidden Markov Models.
 
-#### Bayesian Model
-* Conjugate Priori.
+### Bayesian Model
+* Conjugate Prior.
 
-#### Sampling Algorithm
+### Sampling Algorithm
 * Rejection Sampling;
 * MCMC.
 
-#### Missing Data
+### Missing Data
 * Imputations.
-
-
