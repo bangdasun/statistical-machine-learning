@@ -1,14 +1,16 @@
 ## Statistical-machine-learning
-STAT GR5241 Statistical Machine Learning taught by Professor Linxi Liu
+STAT GR5241 Statistical Machine Learning taught by Professor Linxi Liu. 
+
+**FOR COLUMBIA STATS STUDENTS WHO TAKE THIS COURSE: DO NOT COPY SINCE HOMEWORK PROBLEMS MIGHT BE THE SAME.**
 
 The topics discussed in this course includes:
 
 ### General Concepts
-* Supervised Learning and Unsupervised Learning;
-* Frequentist vs Bayesian;
-* Loss function;
-* Cross validation;
-* Exponential Family.
+* Supervised Learning and Unsupervised Learning
+* Frequentist vs Bayesian
+* Loss function
+* Cross validation
+* Exponential Family
 
 
 ### PCA
@@ -24,56 +26,56 @@ The topics discussed in this course includes:
 * Splines
 
 ### Basic Classification Algorithms
-* Bayes Classifier;
-* Logistic Regression;
-* LDA;
-* QDA;
+* Bayes Classifier
+* Logistic Regression
+* LDA
+* QDA
 
 ### SVM
-* Maximum Margin Classifier;
-* Support Vector Classifier;
-* Support Vector Machine.
+* Maximum Margin Classifier
+* Support Vector Classifier
+* Support Vector Machine
 
 ### Convex Optimization
-* KKT condition.
+* KKT condition
 
 ### Model Selection and Regularization
 * Ridge and LASSO regression
 * AIC/BIC/ROC/various rate etc
 
 ### Tree Methods
-* Decision Tree;
-* Bagging;
-* Random Forest;
-* Boosting.
+* Decision Tree
+* Bagging
+* Random Forest
+* Boosting
 
 ### Cluster Analysis
 * Hierarchical Clustering
-* Model Order Selection.
+* Model Order Selection
 
 ### Mixture Model
-* EM Algorithm;
+* EM Algorithm
 
 ### Text Model
-* Categorical Data;
-* Bigram Model;
-* N-gram Model.
+* Categorical Data
+* Bigram Model
+* N-gram Model
 
 ### Information Theory
-* Entropy;
-* Mutual Information;
-* KL Divergence.
+* Entropy
+* Mutual Information
+* KL Divergence
 
 ### Markov Model
-* PageRank Algorithm;
-* Hidden Markov Models.
+* PageRank Algorithm
+* Hidden Markov Models
 
 ### Bayesian Model
-* Conjugate Prior.
+* Conjugate Prior
 
 ### Sampling Algorithm
-* Rejection Sampling;
-* MCMC.
+* Rejection Sampling
+* MCMC
 
 ### Missing Data
-* Imputations.
+* Imputations
